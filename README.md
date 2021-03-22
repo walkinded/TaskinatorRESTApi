@@ -52,3 +52,6 @@ Task:
 ADMIN: Admin/admin
 
 USER: User/password
+
+# DataBase
+Файл прикреплен к общему проекту под названием "taskinator_db.sql"
