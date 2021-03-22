@@ -16,6 +16,7 @@ public interface TaskMapping {
     TaskMapping INSTANCE = Mappers.getMapper(TaskMapping.class);
 
     @Mapping(source = "user", target = "userDTO")
+    @Mapping(source = "task", target = "priorityTaskDTO")
     TaskDTO toDTO(Task task);
 
     Iterable<TaskDTO> toAll(List<Task> tasks);

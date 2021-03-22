@@ -22,4 +22,10 @@ public class Task extends BaseEntity {
 
     @ManyToOne
     private User user;
+
+    @ManyToMany(fetch = FetchType.EAGER)
+    @JoinTable(name = "priority",
+            joinColumns = {@JoinColumn(name = "task_id", referencedColumnName = "id")},
+            inverseJoinColumns = {@JoinColumn(name = "priority_id", referencedColumnName = "id")})
+    private Set<PriorityTask> priorityTasks;
 }

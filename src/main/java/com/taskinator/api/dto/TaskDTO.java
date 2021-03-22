@@ -21,4 +21,5 @@ public class TaskDTO {
     private Date start;
     private Date end;
     private UserDTO userDTO;
+    private PriorityTaskDTO priorityTaskDTO;
 }

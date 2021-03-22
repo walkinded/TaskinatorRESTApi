@@ -10,6 +10,7 @@ import lombok.*;
 @AllArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class RoleDTO {
+
     private Long id;
     private String name;
 }
