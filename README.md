@@ -42,9 +42,9 @@ Project:
   - /api/project/edit/{id}     - изменить по id
 
 Task:
-  - /api/task/all              - все проекты
+  - /api/task/all              - все задачи
   - /api/task/{id}             - проект по id
-  - /api/task/new              - создать проект
+  - /api/task/new              - создать задачу
   - /api/task/{id}/remove      - удалить по id
   - /api/task/edit/{id}        - изменить по id
 
